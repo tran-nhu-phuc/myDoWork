@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+#a{
+    color: black;
+    font-size: large;
+    position: static;
+    text-shadow: 0cqb;
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+}

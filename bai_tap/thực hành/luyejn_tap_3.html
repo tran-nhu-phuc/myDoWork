@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="in">
+      <header>
+        <h1>Liên hệ với chúng tôi</h1>
+      </header>
+      <main class="out">
+        <div class="first">
+          <label>Họ và tên: </label>
+          <input type="text" class="nameUser" />
+        </div>
+        <div class="second">
+          <label class="email">Email: </label>
+          <input type="email" class="emailUser" />
+        </div>
+        <div class="thirth">
+          <label>Tin nhắn: </label>
+          <textarea class="sendUser" rows="5" cols="50"></textarea>
+        </div>
+        <div class="fourth">
+          <button type="submit">Send</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .in {
+    border: 1px solid black;
+    width: 500px;
+    height: auto;
+  }
+  header {
+    text-align: center;
+  }
+  main {
+    margin-top: 50px;
+  }
+  input {
+    width: 200px;
+    margin-left: 100px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 17px;
+  }
+  .email {
+    margin-left: 23px;
+  }
+  .emailUser {
+    margin-bottom: 20px;
+  }
+  .nameUser {
+    margin-bottom: 20px;
+  }
+  .thirth {
+    margin-left: 15px;
+  }
+  .fourth {
+    margin-left: 220px;
+    margin-top: 50px;
+  }
+  button {
+    height: 50px;
+    width: 100px;
+    border-radius: 7px;
+  }
+  textarea {
+    border-radius: 7px;
+  }
+</style>

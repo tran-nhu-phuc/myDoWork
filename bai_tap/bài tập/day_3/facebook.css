@@ -1,0 +1,52 @@
+main{
+    width: 400px;
+    height: auto;
+    border: 1px solid;
+}
+#formFace{
+    background-color:rgb(58, 87, 149);
+    color: aliceblue;
+}
+
+.book #a,#b{
+    height: 30px;
+    max-width: 50%;
+    border: 1px solid;
+    border-color: rgb(189, 199, 216);
+}
+.book #c,#d,#e{
+    height: 30px;
+    max-width: 100%;
+    border:1px solid;
+    border-color: rgb(189, 199, 216);
+}
+select,option{
+    width: 100px;
+}
+.log{
+    background-color: rgb(90,155,70);
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    color: azure;
+}
+ .password{
+    color: white;
+    background-color: rgb(30, 136, 241);
+}
+#forGet{
+    color: white;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    outline: none;
+    border-color: rgb(189, 199, 216);
+    border-radius: 5px;
+
+}
+input::placeholder{
+    color: aqua;
+}

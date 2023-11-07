@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="sidebar">
+        <nav>
+            <div>
+                <ul>
+                    <li class="a">Trang chủ</li>
+                    <li class="b">Tin tức</li>
+                    <li class="c">Liên hệ</li>
+                    <li class="d">Về chúng tôi</li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <h1>Menu dọc  sang trái</h1>
+            <p>Đây là nột dung chính  của trang wed.</p>
+        </main>
+</div>
+</body>
+</html>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .sidebar{
+        display: flex;
+    }
+    nav{
+        flex: 30%;
+    }
+    ul{
+        height: 1000px;
+        margin-left: 10px;
+    }
+    .b,.c,.d{
+       margin-top: 200px;
+    }
+    ul li{
+        list-style-type: none;
+        font-size: 25px;
+        width: 200px;
+        height: 50px;
+    }
+    /* next */
+    main{
+        flex: 70%;
+    }
+    ul li:hover{
+        background-color:rgb(32, 219, 32);
+    }
+</style>

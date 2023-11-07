@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 20px;
+}
+main{
+    border: 1px solid;
+    width: 50%;
+    max-width: 100%;
+    margin-left: 25%;
+}
+main form{
+    margin: 30px;
+}
+.form{
+    margin-bottom: 40px;
+}
+.form input{
+    border-radius: 5px;
+}
+.name{
+    margin-left: 40px;
+    height: 30px;
+    width: 200px;
+    font-size: 17px;
+} 
+.mail{
+    margin-left: 64px;
+    height: 30px;
+    width: 200px;
+    font-size: 16px;
+}
+ .box{
+    margin: 5px;
+}
+.send{
+    width: 70px;
+    height: 30px;
+}
+.reset{
+    width: 70px;
+    height: 30px;
+}
+.button{
+    margin-left: 100px;
+}
+.send:hover{
+    background-color: chartreuse;
+}
+.reset:hover{
+    background-color: rgb(209, 65, 65);
+}
+.send:active{
+    background-color: chartreuse;
+}
+
+.reset:active {
+    background-color: rgb(209, 65, 65);
+}
+.a{
+    display: flex;
+}
+.box-1,.box-2,.box-3{
+    flex: 33,33%;
+    margin: 3px;
+    margin-left: 20px;
+    
+}
+.box-4,
+.box-5,
+.box-6 {
+    flex: 33, 33%;
+    margin: 3px;
+    margin-left: 20px;
+}
+.userName {
+    width: 200px;
+    height: 30px;
+    margin-left: 115px;
+    border-radius: 5px;
+}
+.userEmail{
+    width: 200px;
+    height: 30px;
+    margin-left: 115px;
+    border-radius: 5px;
+}
+.userPhone{
+    width: 200px;
+    height: 30px;
+    margin-left: 115px;
+    border-radius: 5px;
+}
+.date{
+    margin-left: 90px;
+}
+.sex{
+    margin-left: 150px;
+}
+.class{
+    margin-left: 150px;
+    width: 70px;
+}
+option{
+    width: 100px;
+}
+.dang_nhap{
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+}
+.tai_lai {
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+}
+.click{
+    margin-left:100px ;
+    margin-top: 50px;
+}
+.dang_nhap:hover{
+    background-color: chartreuse;
+}
+.tai_lai:hover{
+    background-color: rgb(207, 58, 58);
+}
